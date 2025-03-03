@@ -1,0 +1,17 @@
+bazel-*
+*.lock
+
+.vscode/
+
+*.o
+
+bin/
+
+output/*
+
+*.txt
+!input/*.txt
+!output/sample_1_out.txt
+
+*.png
+!image/*.png
