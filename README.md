@@ -1,6 +1,7 @@
 # ECE 382M VLSI CAD & Optimization - Homework 3
 ## Problem: Rectilinear Steiner Tree
 Given a set of 2D nodes and a rectanguler boundary, generate a rectilinear Steiner tree constrained within the boundary. The objective is to minimize the total length of the tree.
+![Alt text](image/steiner_tree.png)
 
 ### Input
 The input format is defined as follows.
@@ -8,7 +9,7 @@ The input format is defined as follows.
 * The second line specifies the number of nodes `n`, followed by the coordinates (`x y`) of each node on separate lines.
 #### Input Format
 ```
-[boundary_xl] [boundary_yh] [boundary_xh] [boundary_yh]
+[boundary_xl] [boundary_yl] [boundary_xh] [boundary_yh]
 [node_count]
 [x1] [y1]
 [x2] [y2]
